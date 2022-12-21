@@ -5,11 +5,11 @@ import JumboTron from './JumboTron.vue';
 
 
 export default {
-  //definisco i componenti che utilizzerò
-  components: {
-    NavBar,
-    JumboTron
-  }
+    //definisco i componenti che utilizzerò
+    components: {
+        NavBar,
+        JumboTron
+    }
 }
 
 </script>
@@ -18,13 +18,13 @@ export default {
 
     <div class="navB">
 
-        <NavBar/>
+        <NavBar />
 
     </div>
 
-    <div class="jumbo">
+    <div class="Cjumbo">
 
-
+        <JumboTron />
     </div>
 
 </template>
@@ -32,8 +32,11 @@ export default {
 <style lang="scss" scoped>
 @use '../style/partials/variables' as *;
 
-.navB{
+.navB {
     width: 100vw;
-  
+}
+
+.Cjumbo {
+    width: 100vw;
 }
 </style>
