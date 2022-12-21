@@ -16,10 +16,24 @@ export default {
 
 <template>
 
-    
+    <div class="navB">
+
+        <NavBar/>
+
+    </div>
+
+    <div class="jumbo">
+
+
+    </div>
 
 </template>
 
 <style lang="scss" scoped>
-@use '../style/partials/variables' as *
+@use '../style/partials/variables' as *;
+
+.navB{
+    width: 100vw;
+  
+}
 </style>
