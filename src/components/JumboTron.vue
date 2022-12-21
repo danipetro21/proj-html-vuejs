@@ -35,7 +35,7 @@ a{
     max-width: 1500px;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .info{
     width: 40%;
