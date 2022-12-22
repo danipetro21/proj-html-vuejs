@@ -172,10 +172,5 @@ p {
     
     }
 }
-.final{
-    font-family: 'Playfair Display', serif;
-    font-style: italic; 
-    font-weight: 700;
-}
 
 </style>

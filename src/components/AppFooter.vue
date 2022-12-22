@@ -10,7 +10,7 @@
             <div class="card">
                 <img src="/img/h-2-blog-img-1.jpg" alt="">
                 <div class="calendar">
-                    <span class="number">07</span>
+                    <span class="number final">07</span>
                     <span class="month">MAY '19</span>
                 </div>
                 <h1>This way, loves: a detailed guide <br> through new desing</h1>
@@ -20,7 +20,7 @@
             <div class="card">
                 <img src="/img/h-2-blog-img-2.jpg" alt="">
                 <div class="calendar">
-                    <span class="number">07</span>
+                    <span class="number final">07</span>
                     <span class="month">MAY '19</span>
                 </div>
                 <h1>I try to give people a different way <br> of looking art</h1>
@@ -30,7 +30,7 @@
             <div class="card">
                 <img src="/img/h-2-blog-img-3.jpg" alt="">
                 <div class="calendar">
-                    <span class="number">07</span>
+                    <span class="number final">07</span>
                     <span class="month">MAY '19</span>
                 </div>
                 <h1>Introduce Richard Laperrière of <br> those amazing features</h1>
@@ -107,8 +107,6 @@
         font-size: 1.3rem;
     }
 
-
-
     img {
         width: 100%;
     }
@@ -149,9 +147,7 @@
     display: flex;
     justify-content: space-between;
     
-    a{
-        color: black;
-    }
+
     span {
         display: block;
         margin: 15px 0;
@@ -163,8 +159,9 @@
         justify-content: space-between;
     }
 
-    li {
-        list-style: none;
-    }
+
+    
 }
+
+
 </style>

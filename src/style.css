@@ -42,3 +42,21 @@ button {
 }
 
 
+/* centralizazione */
+/* classe corsivo per span in h1 */
+.final{
+  font-family: 'Playfair Display', serif;
+  font-style: italic; 
+  font-weight: 700;
+}
+
+a{
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+
+

@@ -18,6 +18,18 @@
             <img src="/img/h-2-slider-img-15.png" alt="">
             <img src="/img/h-2-slider-img-16.png" alt="">
 
+            <img class="foglia t1" src="/img/h-2-slider-img-17.png" alt="">
+            <img class="foglia t2" src="/img/short-slider-rev-1-img-2.png" alt="">
+            <img class="foglia t3" src="/img/short-slider-rev-1-img-10.png" alt="">
+            <img class="foglia t4" src="/img/short-slider-rev-1-img-7.png" alt="">
+            <img class="foglia t5" src="/img/short-slider-rev-1-img-8.png" alt="">
+            <img class="foglia t6" src="/img/short-slider-rev-1-img-6.png" alt="">
+
+            
+
+
+
+
         </div>
 
     </div>
@@ -66,9 +78,8 @@ a{
     padding: 20px;
     display: flex;
     justify-content: center;
-    img{
-        width: 300px;
-    }
+
+    position: relative;
 }
 h1{
     font-size: 5rem;
@@ -79,10 +90,34 @@ p{
     color: $p_color;
 }
 
-.final{
-    font-family: 'Playfair Display', serif;
-    font-style: italic; 
-    font-weight: 700;
+.foglia{
+    position: absolute;
+    object-fit: cover;
 }
+.t1{
+    bottom: 0;
+    right: 0;
+}
+.t2{
+    right: 0;
+}
+.t3{
+    left: 0;
+}
+.t4{
+    bottom: 0;
+    left: 50px;
+}
+.t5{
+    top: 50%;
+    left: 0;
+}
+
+.t6{
+    top: 50%;
+    right: -50px;
+}
+
+
 
 </style>
