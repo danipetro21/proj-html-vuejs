@@ -32,17 +32,22 @@ a{
 }
 
 .container{
+    
     max-width: 1500px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    margin: 100px auto;
+    margin: 120px auto;
+    
+
+
 }
 .info{
     width: 40%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 50px;
 
     a{
         width: 150px;
@@ -53,8 +58,13 @@ a{
     }
 }
 .images{
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
 }
 h1{
     font-size: 5rem;
