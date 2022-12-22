@@ -8,7 +8,7 @@
 
         <div class="info">
 
-            <h1>Devotion that <br> never <i><b>ends</b></i></h1>
+            <h1>Devotion that <br> never <span class="final">ends</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat quae ullam dolore, recusandae omnis minus.</p>
             <a href="#">READ MORE</a>
         </div>
@@ -43,22 +43,26 @@ a{
 
 }
 .info{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 50px;
 
     a{
-        width: 150px;
-        border: 2px solid $border_btn_readmore;
-        padding: 10px 20px;
+        width: 200px;
+        border: 3px solid $border_btn_readmore;
+        padding: 15px 27px;
         text-align: center;
         color: black;
     }
+    a:hover{
+        background-color: $btn_readmore_hover;
+        color: white;
+    }
 }
 .images{
-    width: 40%;
+    width: 50%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -73,6 +77,12 @@ h1{
 }
 p{
     color: $p_color;
+}
+
+.final{
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    font-weight: 700;
 }
 
 </style>

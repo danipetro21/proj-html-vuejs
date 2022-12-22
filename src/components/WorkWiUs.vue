@@ -8,7 +8,7 @@
     <section id="working-process">
 
         <div class="title">
-            <h1>Working <i><b>process</b></i></h1>
+            <h1>Working <i><span class="final">process</span></i></h1>
         </div>
 
         <div class="round-box">
@@ -59,7 +59,7 @@
 
     <section id="work-with-us">
 
-        <h1>Want to work with us? Send us <i><b>a message</b></i></h1>
+        <h1>Want to work with us? Send us <i><span class="final">a message!</span></i></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestiae quasi autem alias facere saepe dolores officia sit. Qui explicabo enim magnam molestiae aspernatur, voluptatem officiis nostrum hic! Similique, rem!</p>
         <a href="#">CONTACT</a>
     </section>
@@ -172,4 +172,10 @@ p {
     
     }
 }
+.final{
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+    font-weight: 700;
+}
+
 </style>

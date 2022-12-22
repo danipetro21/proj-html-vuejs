@@ -17,8 +17,12 @@
         <img src="/img/h-2-port-img-3.jpg" alt="">
         
     </div>
-    <div class="card">
+    <div class="card book">
         <img src="/img/h-2-port-img-4.jpg" alt="">
+        <div class="over">
+            <h4>Illustration of novels</h4>
+            <span>Illustration</span>
+        </div>
         
     </div>
     <div class="card">
@@ -50,6 +54,23 @@
         object-fit: cover;
 
     }
+}
+.book{
+    position: relative;
+    cursor: pointer;
+}
+
+.book:hover .over{
+    display: block;
+}
+
+.over{
+    background-color: white;
+    width: 220px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    display: none;
 }
 
 </style>
