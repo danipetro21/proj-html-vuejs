@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
 :root {
   font-family: 'Mulish', sans-serif;
   font-size: 16px;
@@ -15,7 +16,7 @@
 }
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -44,13 +45,13 @@ button {
 
 /* centralizazione */
 /* classe corsivo per span in h1 */
-.final{
+.final {
   font-family: 'Playfair Display', serif;
-  font-style: italic; 
+  font-style: italic;
   font-weight: 700;
 }
 
-a{
+a {
   color: black;
 }
 
@@ -58,5 +59,11 @@ li {
   list-style: none;
 }
 
-
-
+.btn {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.8em;
+  letter-spacing: .25em;
+  font-weight: 800;
+  text-transform: uppercase;
+}

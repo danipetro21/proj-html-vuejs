@@ -61,7 +61,7 @@
 
         <h1>Want to work with us? Send us <i><span class="final">a message!</span></i></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestiae quasi autem alias facere saepe dolores officia sit. Qui explicabo enim magnam molestiae aspernatur, voluptatem officiis nostrum hic! Similique, rem!</p>
-        <a href="#">CONTACT</a>
+        <a href="#" class="btn">CONTACT</a>
     </section>
 
 </template>

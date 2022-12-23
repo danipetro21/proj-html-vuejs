@@ -24,7 +24,7 @@ export default {
 
             <ul>
                 <li v-for="menu in vociMenu">
-                <a href="#">{{ menu }}</a>
+                <a href="#" class="btn">{{ menu }}</a>
                 </li>
                 <a href="#"><li><img src="/svg/svg-1.svg" alt=""></li></a>
             </ul>

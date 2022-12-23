@@ -10,7 +10,7 @@
 
             <h1>Devotion that <br> never <span class="final">ends</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat quae ullam dolore, recusandae omnis minus.</p>
-            <a href="#">READ MORE</a>
+            <a class="btn" href="#">READ MORE</a>
         </div>
 
         <div class="images">
